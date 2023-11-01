@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">Cuenta regresiva</h1>
+    <div class="border" style="display: inline-block; padding: 10px;">
+        <p>Fecha de inicio: @ViewBag.StartTime</p>
+    </div>
+    <div class="border" style="display: inline-block; padding: 10px;">
+        <p>Fecha final: @ViewBag.EndTime</p>
+    </div>
+    <p>Time remaining: @ViewBag.TimeRemaining</p>
+</div>
